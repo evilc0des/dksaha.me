@@ -1,0 +1,285 @@
+/* CSS Document */
+
+body
+{
+	
+}
+
+.sun-scene
+{
+	position:absolute;
+	background-color:#ffc600;
+	width: 100%;
+	height: 900px;
+	z-index: -1000;
+}
+.menu-bar
+{
+	position:fixed;
+	font-size:26px;
+	padding-top: 10px;
+	padding-left: 40px;
+}
+
+.hamburger:hover
+{
+	color: white;
+	cursor:pointer;
+}
+
+.menu-list
+{
+	display:none;
+	font-family: Basic title font, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-left: 20px;
+	font-size: 20px;
+	position:relative;
+	top: -5px;
+}
+
+.menu-list li
+{
+	display:inline;
+	padding-left: 15px;
+}
+#section-title
+{
+	font-family: Basic title font, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-left: 20px;
+	font-size: 20px;
+	position:relative;
+	top: -5px;
+}
+
+.dk-logo
+{
+	width: 25%;
+	position:fixed;
+	top: 50px;
+	padding-top: 80px;
+	padding-left: 50px;
+	
+}
+
+.content
+{
+	text-align: right;
+	z-index: 1000;
+}
+
+.hello-text
+{
+	
+	font-family: Harabara Mais Demo, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:72px;
+	margin-bottom: 0px;
+}
+
+.hello-div
+{
+	margin-top: 200px;
+	margin-right: -30px;
+	
+}
+
+.hello-div h2
+{
+	margin-top: 0px;
+}
+
+.pagination-scroll
+{
+	position:fixed;
+	left: 1316px;
+	top: 250px;
+	
+}
+
+.anim-sun
+{
+	position: fixed;
+	bottom: -40px;
+	z-index: -1000;
+}
+
+.wave-scene
+{
+	background-color:#2B4479;
+	position:absolute;
+	top:950px;
+	width:100%;
+	height:700px;
+	z-index:-900;
+}
+
+.anim-waves
+{
+	position: absolute;
+	top: 600px;
+	z-index: -500;
+}
+
+.bubbles
+{
+	position:absolute;
+	top: 300px;
+	z-index: -200;
+}
+@keyframes hamburger {
+    0%   {transform: rotate(0deg);}
+    100%  {transform: rotate(270deg);}
+}
+
+.about-div
+{
+	margin-top: 700px;
+	text-align:left;
+}
+
+.portfolio-div
+{
+	margin-top: 700px;
+	text-align:left;
+	display:none;
+}
+
+.portfolio-head
+{
+	text-align: right;
+	font-family: Harabara Mais Demo, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:white;
+}
+
+.about-head
+{
+	color: white;
+	font-family: Harabara Mais Demo, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:72px;
+	margin-bottom: 0px;
+}
+
+.about-text1
+{
+	color:white;
+	font-size:16px;
+}
+
+.about-text2
+{
+	color:white;
+	font-size:14px;
+}
+
+.skills
+{
+	height: 600px;
+}
+.skills-img
+{
+	width:120%;
+}
+
+.about-div h2
+{
+	color: white;
+	font-size:18px;
+}
+
+.evilcodes-logo
+{
+	
+	padding-top: 30px;
+	width: 30%;
+}
+
+.codeclub-logo
+{
+	padding-top: 30px;
+	padding-left: 35px;
+	padding-right: 10px;
+	width: 50%;
+	
+}
+
+.my-pic
+{
+	
+	position: absolute;
+	top: 1025px;
+	left:810px;
+	width: 40%;
+	overflow-x: hidden;
+	z-index: -200;
+}
+
+.sea-grad 
+{
+	display:none;
+	position:absolute;
+	top: 1600px;
+	z-index: -500;
+}
+.sea-bed
+{
+	display:none;
+	position:absolute;
+	width:105%;
+	top: 2100px;
+	z-index: -500;
+}
+
+.scroll-reset
+{
+	position:absolute;
+	top: 1000px;
+}
+
+.contact-div
+{
+	margin-top: 600px;
+	display:none;
+	color: white;
+}
+
+.contact-head
+{
+	font-family: Harabara Mais Demo, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.contact-options
+{
+	list-style:none;
+	margin-bottom:0px;
+}
+
+.contact-options li
+{
+	display:inline-block;
+	text-align:center;
+	color:black;
+	font-size:24px;
+	width:90px;
+	height:90px;
+	padding-top: 20px;
+	background-color:rgba(255,214,43,1.00);
+	
+}
+
+.option-text
+{
+	font-size:14px;
+	font-family: orator std, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.contact-msg
+{
+	font-size:14px;
+}
+
+.contact-info
+{
+	display:none;
+	padding: 20px;
+	background-color:rgba(255,214,43,1.00);
+	color:black;
+}

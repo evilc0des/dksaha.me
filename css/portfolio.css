@@ -1,0 +1,53 @@
+/* CSS Document */
+
+
+
+.main-console
+{
+	height: 500px;
+	background-color:#132A5A;
+	
+	padding: 20px;
+}
+
+.image-gallery
+{
+	background-color:rgba(0,0,0,0.55); 
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	list-style:none;
+}
+.image-gallery li
+{
+	display:inline-block;	
+	
+	width:30%;
+}
+
+.image-gallery li img
+{
+	width:100%;
+	height: 100px;
+}
+
+.image-gallery li:hover
+{
+	transform:scale(1.2,1.2);
+}
+
+.info
+{
+	color:white;
+}
+
+.info h2
+{
+	font-family:orator std, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+}
+
+.info a
+{
+	color:#FFDB23;
+}

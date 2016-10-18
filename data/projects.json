@@ -1,0 +1,5 @@
+[{"id":"vinicom", "name":"Vinicom Broadband", "date":"September 2015", "tags":[{"name":"CSS3", "url":""}, {"name":"CSS3", "url":""}, {"name":"CSS3", "url":""}, {"name":"CSS3", "url":""}], "description":"A full-scale responsive website for Vinicom Broadband. Designed from Scratch. Including all Artworks and Designs. ", "url":"http://www.vinicom.in", "linkName":"vinicom.in"},
+
+ {"id":"balaka", "name":"Balaka Cinema", "date":"October 2015", "tags":[{"name":"CSS3", "url":""}, {"name":"Responsive", "url":""}, {"name":"JQuery", "url":""}, {"name":"AngularJS", "url":""}], "description":"", "url":"http://www.balakacinema.com", "linkName":"balakacinema.com"},
+ 
+  {"id":"hostellot", "name":"Hostellot", "date":"October 2015", "tags":[{"name":"Animation", "url":""}, {"name":"Responsive", "url":""}, {"name":"PHP", "url":""}, {"name":"JQuery", "url":""}, {"name":"Module", "url":""}], "description":"", "url":"", "linkName":""}]

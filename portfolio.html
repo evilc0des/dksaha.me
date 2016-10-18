@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/portfolio.js"></script>
+</head>
+
+<body>
+<div class="main-console">
+<div class="row">
+<div class = "preview col-sm-8">
+<div id="preview-caraousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#preview-caraousel" data-slide-to="0" class="active"></li>
+    <li data-target="#preview-caraousel" data-slide-to="1"></li>
+    <li data-target="#preview-caraousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="first-slide item active">
+      <img class="preview-img1" src="assets/portfolio/vinicom/0.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img class="preview-img2" src="assets/portfolio/vinicom/1.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+   <div class="item">
+      <img class="preview-img3" src="assets/portfolio/vinicom/2.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#preview-caraousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#preview-caraousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+<div class = "info col-sm-4">
+<h2>name</h2>
+<h3 id="project-name">Vinicom Broadband</h3>
+<h2>date</h2>
+<h4 id="project-date">September 2015</h4>
+<h2>tags<span class="tag-count badge">4</span></h2>
+<div id="tags"><span class="label label-warning">CSS3</span>
+<span class="label label-warning">Responsive</span>
+<span class="label label-warning">JQuery</span>
+<span class="label label-warning">Design</span>
+
+</div>
+<h2>description</h2>
+<p id="project-desc">A full-scale responsive website for Vinicom Broadband. Designed from Scratch. Including all Artworks and Designs. <br><br>
+<a id="project-link" href="http://www.vinicom.in">vinicom.in</a></p>
+</div>
+</div>
+
+<div class = "row">
+<div class = "archive col-sm-12">
+<ul class="image-gallery">
+<li class="gallery-img" id = "vinicom"><img src="assets/portfolio/vinicom/logo.jpg"/></li>
+<li class="gallery-img" id= "balaka"><img src="assets/portfolio/balaka/logo.jpg"/></li>
+<li class="gallery-img" id= "hostellot"><img  src="assets/portfolio/hostellot/logo.jpg"/></li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>

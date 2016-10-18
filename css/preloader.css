@@ -1,0 +1,83 @@
+/* CSS Document */
+body
+{
+	margin:0;
+}
+
+.loader-wrapper
+{
+	background-color:rgba(26,26,26,1.00);
+	position:fixed;
+	height:100%;
+	width:100%;
+	text-align:center;
+}
+
+.loader
+{
+	position:relative;
+	top: 40%;
+	
+	display:inline-block;	
+}
+
+.loader-text
+{
+	position:relative;
+	top: 42%;
+	color:white;
+	font-family:basic title font ;
+	text-align:center;
+}
+
+.footer
+{
+	position:relative;
+	top: 68%;
+	color:white;
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+	font-size:12px;
+}
+
+.footer h2
+{
+	font-family:Harabara Mais Demo, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+	display:inline-block;
+	font-size:36px;
+	margin-right: 10px;
+	margin-bottom: 5px;	
+}
+
+.footer h3
+{
+	font-family:Orator Std, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+	display:inline-block;
+	font-size:12px;
+}
+
+.everything
+{
+	visibility:hidden;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+.square
+{
+	background: white;
+	width: 15px;
+	height:15px;
+	margin-top: 3px;
+	margin-right: 2px;
+	display:inline-block;
+}
+
+.square.yellow
+{
+	background:#ffc600;
+	-webkit-animation-duration: 4s;
+	-moz-animation-duration: 4s;
+}
